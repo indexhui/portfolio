@@ -1,6 +1,6 @@
 <template>
   <div class="relative flex justify-center bg-gray-100 min-h-screen pt-6 z-1">
-    <div class="w-4xl 2xl:w-6xl <lg:w-full <sm:px-4">
+    <div class="px-4 w-11/12 lg:w-9/12 2xl:w-6xl">
       <Menu />
       <Nuxt />
       <HomeFooter />

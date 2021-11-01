@@ -40,27 +40,27 @@ export default {
   >
     <div class="flex justify-between items-center">
       <NuxtLink :to="localePath('/')" class="flex items-center group">
-        <img class="w-24px h-24px mr-4px" src="../assets/logo.svg" alt="logo" />
+        <img class="w-5 h-5 mr-1" src="../assets/logo.svg" alt="logo" />
         <span
           class="
             text-gray-500
             Variant
             Rule
             Description
-            group-hover:text-cyan-800
+            group-hover:text-blue-400
           "
           >HUGH FENG</span
         >
       </NuxtLink>
       <div
         class="
-          flex
           top-4
           bg-white
           py-2
           space-x-2
           rounded-full rounded-br-0
-          <lg:hidden
+          hidden
+          lg:flex
           text-gray-600
         "
       >
