@@ -27,7 +27,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['nuxt-windicss'],
+  // buildModules: ['nuxt-windicss'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -55,9 +55,9 @@ export default {
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-  windicss: {
-    scan: {
-      exclude: ['node_modules', 'node_modules_dev', 'node_modules_prod'],
-    },
-  },
+  // windicss: {
+  //   scan: {
+  //     exclude: ['node_modules', 'node_modules_dev', 'node_modules_prod'],
+  //   },
+  // },
 }
