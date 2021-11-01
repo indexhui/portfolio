@@ -2,6 +2,7 @@ import en from './locales/en.js'
 import tw from './locales/tw.js'
 
 export default {
+  target: 'static',
   ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
