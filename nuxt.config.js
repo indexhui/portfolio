@@ -2,7 +2,7 @@ import en from './locales/en.js'
 import tw from './locales/tw.js'
 
 export default {
-  target: 'static',
+  // target: 'static',
   ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -29,7 +29,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: ['@nuxtjs/tailwindcss'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
