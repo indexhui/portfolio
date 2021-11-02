@@ -3,7 +3,7 @@
     {
       "src": "nuxt.config.js",
       "use": "@nuxtjs/vercel-builder",
-      "config": { "serverFiles": ["locales/en.js", "locales/en.js"] }
+      "config": { "serverFiles": ["locales/**"] }
     }
   ]
 }
