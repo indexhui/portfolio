@@ -121,15 +121,15 @@ export default {
         <a
           class="
             px-4
-            text-center
-            hover:bg-opacity-40 hover:text-cyan-800 hover:bg-light-blue-200
+            text-center text-gray-800
+            hover:text-blue-600
             rounded-full
             flex
             items-center
           "
           href="https://github.com/indexhui"
           target="_blank"
-          ><Icon icon="github"
+          ><Icon class="hover:text-blue-600" icon="github"
         /></a>
       </div>
       <div
