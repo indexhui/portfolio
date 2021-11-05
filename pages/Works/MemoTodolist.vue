@@ -7,8 +7,8 @@ export default {
       duration: 'memoTime',
       role: 'f2e',
       framework: 'Vue3、tailwindcss',
-      link: 'https://indexhui.github.io/subscription-management/',
-      github: 'https://github.com/indexhui/subscription-management',
+      link: 'https://indexhui.github.io/vue-todolist/',
+      github: 'https://github.com/indexhui/vue-todolist',
     }
     return {
       memo,
