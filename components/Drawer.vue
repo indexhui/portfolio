@@ -79,6 +79,12 @@ export default {
             target="_blank"
             >{{ $t('article') }}</a
           >
+          <a
+            class="text-center rounded-full flex items-center text-gray-500"
+            href="https://github.com/indexhui"
+            target="_blank"
+            ><Icon icon="github"
+          /></a>
         </div>
       </div>
     </transition>
