@@ -132,7 +132,7 @@ export default {
             >
           </div>
           <img
-            class="w-72px h-72px rounded-full"
+            class="w-72px h-72px rounded-full <md:w-48px <md:h-48px"
             src="../assets/brands/uiclub.jpg"
             alt="uiclub"
           />
