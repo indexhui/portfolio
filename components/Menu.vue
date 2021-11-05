@@ -118,6 +118,19 @@ export default {
           "
           >{{ locale.name }}</nuxt-link
         >
+        <a
+          class="
+            px-4
+            text-center
+            hover:bg-opacity-40 hover:text-cyan-800 hover:bg-light-blue-200
+            rounded-full
+            flex
+            items-center
+          "
+          href="https://github.com/indexhui"
+          target="_blank"
+          ><Icon icon="github"
+        /></a>
       </div>
       <div
         @click="handleToggleDawer"
