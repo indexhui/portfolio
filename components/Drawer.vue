@@ -21,6 +21,10 @@ export default {
         : 'https://www.dropbox.com/s/t8gyvsmue1eq0i4/resume_tw.pdf?dl=0'
     },
   },
+  beforeRouteUpdate(to, from, next) {
+    this.handleToggleDawer
+    next()
+  },
 }
 </script>
 
@@ -49,16 +53,27 @@ export default {
           <Icon icon="close" size="20" class="cursor-pointer" />
         </div>
         <div class="space-y-2 flex flex-col">
-          <NuxtLink class="text-gray-700" :to="localePath('/')">{{
-            $t('home')
-          }}</NuxtLink>
-          <NuxtLink class="text-gray-700" :to="localePath('/info')">{{
-            $t('info')
-          }}</NuxtLink>
-          <a class="text-gray-700" :href="resume" target="_blank">{{
-            $t('resume')
-          }}</a>
+          <NuxtLink
+            class="text-gray-700"
+            :to="localePath('/')"
+            @click.native="handleToggleDawer"
+            >{{ $t('home') }}</NuxtLink
+          >
+          <NuxtLink
+            @click.native="handleToggleDawer"
+            class="text-gray-700"
+            :to="localePath('/info')"
+            >{{ $t('info') }}</NuxtLink
+          >
           <a
+            @click="handleToggleDawer"
+            class="text-gray-700"
+            :href="resume"
+            target="_blank"
+            >{{ $t('resume') }}</a
+          >
+          <a
+            @click="handleToggleDawer"
             class="text-gray-700"
             href="https://indexhui.github.io/note/blog"
             target="_blank"

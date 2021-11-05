@@ -22,7 +22,7 @@ export default {
                 font-semibold
                 text-gray-700
                 space-x-2
-                m-b-1
+                mb-1
                 <md:space-x-0 <md:flex-col
               "
             >
@@ -48,7 +48,7 @@ export default {
                 font-semibold
                 text-gray-700
                 space-x-2
-                m-b-1
+                mb-1
                 flex
                 <md:space-x-0 <md:flex-col
               "
@@ -85,7 +85,7 @@ export default {
       <div class="bg-white col-span-1 p-6 rounded-2xl">
         <div class="flex justify-between items-center">
           <div>
-            <div class="text-md font-semibold text-gray-700 space-x-2 m-b-1">
+            <div class="text-md font-semibold text-gray-700 space-x-2 mb-1">
               <span>{{ $t('aapd') }}</span>
             </div>
             <div class="text-gray-600">{{ $t('champion') }}</div>
@@ -113,7 +113,7 @@ export default {
       <div class="bg-white col-span-1 p-6 rounded-2xl">
         <div class="flex justify-between items-center">
           <div>
-            <div class="text-md font-semibold text-gray-700 space-x-2 m-b-1">
+            <div class="text-md font-semibold text-gray-700 space-x-2 mb-1">
               <span>{{ $t('uiclub') }}</span>
             </div>
             <div class="text-gray-600">{{ $t('champion') }}</div>

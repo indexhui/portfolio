@@ -3,7 +3,7 @@ import tw from './locales/tw.js'
 
 export default {
   // target: 'static',
-  ssr: false,
+  // ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'hugh',
